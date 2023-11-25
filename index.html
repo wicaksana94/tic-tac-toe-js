@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="tic-tac-toe-container">
+        <div id="tic-tac-toe-board"></div>
+        <button id="reset-btn" onclick="resetBoard()">Reset</button>
+        <button id="end-btn" onclick="endApp()">End Game</button>
+        <div id="tic-tac-toe-control-container">
+            <label>Enter Tic-Tac-Toe board size:</label>
+            <div id="tic-tac-toe-control">
+                <input id="board-size" type="number" min="3" max="10" value="3">
+                <button class="hidden" onclick="startApp()">Start</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
